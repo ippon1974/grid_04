@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    color: azure;
+}
+
+div.out{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.in > h1{
+    font-size: 3vw;
+    text-transform: uppercase;
+    font-style: italic;
+    color: azure;
+}
+
+div.in > p a{
+    color: cadetblue;
+}
