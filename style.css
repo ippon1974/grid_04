@@ -13,8 +13,12 @@ div.out{
 div.in > h1{
     font-size: 3vw;
     text-transform: uppercase;
-    font-style: italic;
+    font-style: normal;
     color: azure;
+}
+
+div.in > p {
+    text-align: center;
 }
 
 div.in > p a{
