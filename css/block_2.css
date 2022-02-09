@@ -1,0 +1,29 @@
+header
+{
+    width: 400px;
+    height: 40px;
+    background: black;
+}
+
+aside
+{
+    display: inline-block;
+    width: 132px;
+    height: 184px;
+    background: #ffff00;
+}
+
+#content
+{
+    display: inline-block;
+    width: 230px;
+    height: 184px;
+    background: #0000ff;
+}
+
+footer
+{
+    width: 400px;
+    height: 40px;
+    background: #662d91;
+}
