@@ -3,8 +3,6 @@
 }
 
 body {
-    background: black;
-    color: #e7e7e7;
     height: 100vh;
     display: grid;
     grid-template-areas:
@@ -47,6 +45,8 @@ footer {
 
 @media (max-width: 601px) {
     body {
+        background: black;
+        color: #e7e7e7;
         grid-template-areas:
       'header'
       'navnav'
@@ -57,6 +57,29 @@ footer {
         grid-template-columns: 1fr;
         grid-template-rows: 3rem 1fr 1fr 1fr 1fr 3rem;
     }
+
+    .custom-select{
+        font-size: 1.5em;
+    }
+    .w{
+        font-size: 1.5em;
+        width: 50%;
+    }
+
+    .h{
+        font-size: 1.5em;
+        width: 50%;
+    }
+
+    .submit {
+        font-size: 1.5em;
+    }
+
+    article > h1 {
+        font-size: 5vh;
+        text-transform: uppercase;
+    }
+
 }
 
 
@@ -74,7 +97,7 @@ footer {
 
 @media screen and (min-width: 601px) {
     p.example {
-        font-size: 1.1em;
+        font-size: 1.0em;
     }
 }
 
@@ -84,6 +107,9 @@ footer {
         font-size: 30px;
     }
 }
+
+
+
 
 
 
