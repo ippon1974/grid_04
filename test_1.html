@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Корзина</title>
+    <link rel="stylesheet" href="css/test_1.css">
+</head>
+<body>
+
+<h1>Корзина</h1>
+<form action="/update" method="post">
+<div class="wrapper">
+    <div class="img"><img src="img/amelie.png" height="80" width="150"/></div>
+    <div class="name">Решетка Bella</div>
+    <div class="material">Латунь</div>
+    <div class="size">750 × 256 × 2 мм</div>
+    <div class="cost">27188 руб.</div>
+    <div class="count">
+        <input type="number" min="1" name="number" size="2em" value="1">
+    </div>
+    <div class="delete"><a href="/">Удалить</a></div>
+</div>
+
+<div class="line"></div>
+
+    <div class="wrapper">
+        <div class="img"><img src="img/amelie.png" height="80" width="150"/></div>
+        <div class="name">Решетка Bella</div>
+        <div class="material">Латунь</div>
+        <div class="size">750 × 256 × 2 мм</div>
+        <div class="cost">27188 руб.</div>
+        <div class="count">
+            <input type="number" min="1" name="number" size="2em" value="1">
+        </div>
+        <div class="delete"><a href="/">Удалить</a></div>
+    </div>
+
+    <div class="line"></div>
+
+    <div class="wrapper">
+        <div class="img"><img src="img/amelie.png" height="80" width="150"/></div>
+        <div class="name">Решетка Bella</div>
+        <div class="material">Латунь</div>
+        <div class="size">750 × 256 × 2 мм</div>
+        <div class="cost">27188 руб.</div>
+        <div class="count">
+            <input type="number" min="1" name="number" size="2em" value="1">
+        </div>
+        <div class="delete"><a href="/">Удалить</a></div>
+    </div>
+
+
+    <div align="right"><input type="submit" value="Обновить"></div>
+    <p align="right"><strong>Общая стоимость: 26589 руб.</strong></p>
+
+    <hr>
+    <div align="left">
+        <p><a href="/catalog/grills">Продолжить покупки</a>  | <a href="/order">Оформить заказ </a></p>
+    </div>
+
+</form>
+</body>
+</html>

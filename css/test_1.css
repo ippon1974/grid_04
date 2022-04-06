@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+@media screen and  (min-width:600px) {}
+@media screen and  (min-width:800px) {}
+@media screen and (min-width:1024px) {}
+@media screen and (min-width:1524px) {}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+            'img name material size cost count delete';
+    grid-gap: 5px;
+    align-items: center;
+}
+
+.img {
+    grid-area: img;
+}
+.name {
+    grid-area: name;
+}
+
+.material {
+    grid-area: material;
+}
+
+.size {
+    grid-area: size;
+}
+.cost {
+    grid-area: cost;
+}
+.count {
+    grid-area: count;
+}
+.delete {
+    grid-area: delete;
+}
+
+@media (max-width: 601px) {
+    .wrapper {
+        grid-template-areas: 'img' 'name' 'material' 'size' 'cost' 'count' 'delete';
+        grid-template-columns: 1fr;
+        grid-template-rows: 80px 1fr 1fr 1fr 2fr 1fr 1fr;
+        align-items: normal;
+    }
+
+    .wrapper > div{
+        background: antiquewhite;
+    }
+    h1{
+        text-align: center;
+    }
+}
+
+.wrapper > div{
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+}
+
+.wrapper > div.img{
+    padding: 0 1em 0 0;
+}
+
+.line {
+    margin: 1em 0 1em 0;
+    border-bottom: 1px solid black;
+}
+
