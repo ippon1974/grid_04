@@ -85,7 +85,6 @@ html, body {
     }
 }
 
-
 .wrapper > div{
     background: white;
     margin-left: auto;
@@ -102,4 +101,3 @@ html, body {
     margin: 1em 0 1em 0;
     border-bottom: 1px solid black;
 }
-
