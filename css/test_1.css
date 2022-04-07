@@ -19,10 +19,10 @@ html, body {
 
 .wrapper{
     display: grid;
-    grid-template-columns: 150px 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 150px 2fr 1fr 2fr 1fr 1fr 1fr;
     grid-template-areas:
             'img name material size cost count delete';
-    grid-gap: 5px;
+    grid-gap: 10px;
     align-items: center;
 }
 
@@ -50,6 +50,16 @@ html, body {
     grid-area: delete;
 }
 
+.war{
+    color: red;
+}
+
+@media (max-width:320px){
+    .war{
+        color: chocolate;
+    }
+}
+
 @media (max-width: 601px) {
     .wrapper {
         grid-template-areas: 'img' 'name' 'material' 'size' 'cost' 'count' 'delete';
@@ -66,10 +76,21 @@ html, body {
     }
 }
 
+@media (max-width: 321px) {
+    .wrapper {
+        grid-template-areas: 'img' 'name' 'material' 'size' 'cost' 'count' 'delete';
+        grid-template-columns: 1fr;
+        grid-template-rows: 80px 1fr 1fr 1fr 2fr 1fr 1fr;
+        align-items: normal;
+    }
+}
+
+
 .wrapper > div{
     background: white;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 1em 0 1em;
     vertical-align: middle;
 }
 
