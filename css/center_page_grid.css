@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+  }
+  
+  .wrapper {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    font-size: 100px;
+    font-family: sans-serif;
+  }
