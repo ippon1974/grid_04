@@ -1,14 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+.my {
+    font-size: 5vw;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px 100px;
-    gap: 10px;
+    /* grid-template-rows: 100px 100px; */
+    gap: 0;
     margin: 0 20px;
+    grid-auto-rows: minmax(0, auto);
 }
 
 .item{
-    padding: 10px;
-    border: 1px solid black;
+    padding: 15px;
+    /* border: 1px solid black; */
 }
 
 .item-1{
@@ -22,7 +33,7 @@
 }
 
 .item-2 {
-    background: yellow;
+    background: beige;
     grid-column: 1/3;
 }
 
