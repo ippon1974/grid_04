@@ -34,3 +34,9 @@
     /* border: 1px solid black; */
     padding: 10px;
 }
+
+.responsive{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
